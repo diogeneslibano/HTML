@@ -1,0 +1,72 @@
+body{
+	font-family: "Lucida Console";
+}
+p{
+	font-size: 24px;
+  	margin: 0px;
+  	padding: 0px 0px 8px 8px;
+  }
+
+  h1{
+  	text-align: center;
+  	font-size: 40px;
+  }
+
+  h2{
+  	float: right;
+  	clear: left;
+  	text-align: center;
+  	width: 150px;
+  	margin: 0px 0px 5px 100%;
+  	border:1px solid black;
+  	box-sizing: border-box;
+  	font-size: 32px;
+  }
+
+  .sect1, .sect2, .sect3{
+  	float: left;
+  	background-color: silver;
+  	border:1px solid black;
+  	box-sizing: border-box;
+  }
+  #Titl1{
+  	background-color: green;
+  }
+
+  #Titl2{
+  	background-color: yellow;
+  }
+
+  #Titl3{
+  	background-color: red;
+  	color: white;
+  }
+
+@media(min-width: 992px){
+  .sect1, .sect2, .sect3{
+  	width: 30%;
+  	margin: 30px 0px 0px 3%;
+  }
+
+  .sect1{
+  	margin-left:2%; 
+  }
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+  .sectm1, .sectm2{
+  	width: 46%;
+  	margin: 30px 0px 20px 3%;
+  }
+
+  .sectm3{
+  	width: 95%;
+    margin: 0px 3% 0px 3%;	
+  }
+}
+
+@media(max-width: 767px){
+  .sects1, .sects2, .sects3{
+  	margin: 30px 3% 0px 3%;
+  }
+}
